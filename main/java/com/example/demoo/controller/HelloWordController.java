@@ -27,6 +27,7 @@ public class HelloWordController {
     }
 
     // 新增注释
+    // test-02 测试
     @RequestMapping("/query.htm")
     ModelAndView queryUserByName() {
         ModelAndView vm=new ModelAndView();

@@ -26,6 +26,7 @@ public class HelloWordController {
         return helloWord.sayHelloWord();
     }
 
+    // 新增注释
     @RequestMapping("/query.htm")
     ModelAndView queryUserByName() {
         ModelAndView vm=new ModelAndView();
